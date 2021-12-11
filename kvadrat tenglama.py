@@ -1,0 +1,8 @@
+a = int(input('a qiymatni kiriting- '))
+b = int(input('b qiymatni kiriting- '))
+c = int(input("c qiymatni kiriting- "))
+d = (b**2 - 4*a*c)**(1/2)
+x1 = (-b + d)/(2*a)
+x2 = (-b - d)/(2*a)
+print('x1 = {}'.format(x1))
+print('x2 = {}'.format(x2))
